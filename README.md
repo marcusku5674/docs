@@ -19,6 +19,8 @@
 
 **教科书升级（2026-10-26 终版）**：全 19 册加入教科书五件套（学习目标/先修链/分级习题/术语表/排障手册），核心三册（架构/启动/Binder）深度扩写至 40/35/31 页（含五层穿越教程、HAL 六文件走读、160+ 服务全表、属性五跳走读、ioctl 深度走读、AIDL 十决策解剖、ANR 完整解剖、OOM 因子教程、触摸七段走读、掉帧五步法、PMS 扫描走读、权限三层走读、安装管线走读、bootchart 实战等）。
 
+**教科书化改造（2026-10-27，进行中）**：按七项标准（≥3 个逐行走读/≥10 道分级习题/≥5 个学习目标/≥15 条术语/≥3 个排障场景/≥2 图）逐册真扩写（五件套此前多为占位，现已全部替换为实内容）。已完成：**书13-19 全部**（SystemUI 34p/HAL 30p/构建 50p/车机 31p/无障碍 37p/CTS 31p/Telephony 32p，每册新增 3-4 章真实源码走读）+ **书8 渲染 39p**（VSync 调度/Gralloc 分配链/RenderEngine/帧生命周期四章）+ **书10 网络 32p**（ConnectivityService 决策内核/NetworkMonitor 状态机/eBPF 数据面/DNS 内核四章）；新增 9 张 SVG 图；书10-19 页眉页脚规范化；修复书2 bootchart 段重复围栏。进度检测器 `build/check_criteria.py`。
+
 **终批（第八批）：书16-19《车机 AAOS》《无障碍体系》《CTS 认证实战》《Telephony》（2026-10-26）**：锚点 8/8 全通过。至此丛书所有规划方向全部出齐。
 
 **第七批：书13-15《SystemUI 与通知体系》《HAL 驱动级实战》《构建系统实战》（2026-10-26）**：+5 张新图、+30 题至 192 题。锚点：SystemUIApplication:62（CoreStartable:34 模型）、NotificationManagerService:349/6397、Launcher.java:238 StatefulActivity、Power.cpp AIDL 模板。
